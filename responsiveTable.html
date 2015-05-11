@@ -43,7 +43,7 @@
         /* BASE STYLES END HERE */
 
         table {
-            border: 1px solid rgba(0, 0, 0, .1);
+            /*border: 1px solid rgba(0, 0, 0, .1);*/
             width: 100%;
             margin:0;
             padding: 0;
@@ -52,7 +52,7 @@
         }
 
         table tr {
-            border-bottom: 1px solid rgba(33, 33, 33, .1);
+            /*border: 1px solid rgba(33, 33, 33, .1);*/
             padding: 5px;
             transition: all ease-in-out .3s;
         }
@@ -87,6 +87,10 @@
             position: relative;
         }
 
+        input[type="checkbox"] {
+            cursor: pointer;
+        }
+
         .responseLabel {
             text-align: left;
         }
@@ -103,7 +107,7 @@
             table tr {
                 margin-bottom: 10px;
                 display: block;
-                border-bottom: 2px solid #ddd;
+                border-bottom: 2px solid #ccc;
             }
 
             tr:nth-child(even) {
@@ -181,7 +185,7 @@
                             <label for="item-2-2"></label>
                         </td>
                         <td data-label="Axe" class="response">
-                            <input type="checkbox"/ id="item-2-3">
+                            <input type="checkbox" id="item-2-3"/>
                             <label for="item-2-3"></label>
                         </td>
                         <td data-label="Sword" class="response">
